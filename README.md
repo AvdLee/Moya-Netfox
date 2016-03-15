@@ -1,6 +1,5 @@
 # Moya-Netfox
 
-[![CI Status](http://img.shields.io/travis/Antoine van der Lee/Moya-Netfox.svg?style=flat)](https://travis-ci.org/Antoine van der Lee/Moya-Netfox)
 [![Version](https://img.shields.io/cocoapods/v/Moya-Netfox.svg?style=flat)](http://cocoapods.org/pods/Moya-Netfox)
 [![License](https://img.shields.io/cocoapods/l/Moya-Netfox.svg?style=flat)](http://cocoapods.org/pods/Moya-Netfox)
 [![Platform](https://img.shields.io/cocoapods/p/Moya-Netfox.svg?style=flat)](http://cocoapods.org/pods/Moya-Netfox)
@@ -9,20 +8,19 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 Moya-Netfox is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+it, you need to reference this specific Netfox branch in your podfile, before referencing this pod:
 
 ```ruby
-pod "Moya-Netfox"
+pod 'netfox', :git => 'https://github.com/AvdLee/netfox'
+pod 'Moya-Netfox'
 ```
 
 ## Author
 
-Antoine van der Lee, a.vanderlee@triple-it.nl
+Antoine van der Lee, info@avanderlee.com
 
 ## License
 
