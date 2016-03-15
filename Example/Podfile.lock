@@ -1,0 +1,14 @@
+PODS:
+  - Moya-Netfox (0.1.0)
+
+DEPENDENCIES:
+  - Moya-Netfox (from `../`)
+
+EXTERNAL SOURCES:
+  Moya-Netfox:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Moya-Netfox: 24ec10fa326ca780e77611bd0f55f925c0cba56d
+
+COCOAPODS: 0.39.0
