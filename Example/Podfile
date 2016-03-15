@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Moya-Netfox_Example', :exclusive => true do
+  pod 'Moya-Netfox', :path => '../'
+end
+
+target 'Moya-Netfox_Tests', :exclusive => true do
+  pod 'Moya-Netfox', :path => '../'
+
+  
+end
